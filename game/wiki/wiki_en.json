@@ -1,0 +1,1330 @@
+{
+  "satellite": {
+    "1": {
+      "l1": "-",
+      "l2": "-",
+      "name": "The Moon",
+      "no": 1
+    },
+    "2": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Lolly",
+      "boost": "Decrease Food Requirements",
+      "no": 2
+    },
+    "3": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Honey Dipper",
+      "boost": "Increase Production",
+      "no": 3
+    },
+    "4": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Cheeeese",
+      "boost": "Increase Population",
+      "no": 4
+    },
+    "5": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Letter in the Bottle",
+      "boost": "Decrease Food Requirements",
+      "no": 5
+    },
+    "6": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Space Crud",
+      "boost": "Extend Production Time",
+      "no": 6
+    },
+    "7": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Artificial Satellite",
+      "boost": "Increase Population",
+      "no": 7
+    },
+    "8": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Gear",
+      "boost": "Increase Population",
+      "no": 8
+    },
+    "9": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Snowball",
+      "boost": "Increase Production",
+      "no": 9
+    },
+    "10": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Olive Sapling",
+      "boost": "Extend Happy Time",
+      "no": 10
+    },
+    "11": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Christmas Star",
+      "boost": "Extend Production Time",
+      "no": 11
+    },
+    "12": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Flake",
+      "boost": "Extend Production Time",
+      "no": 12
+    },
+    "13": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Feather Pom",
+      "boost": "Increase Population",
+      "no": 13
+    },
+    "14": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Ice Lolly",
+      "boost": "Increase Production",
+      "no": 14
+    },
+    "15": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Rainbow Orb",
+      "boost": "Decrease Food Requirements",
+      "no": 15
+    },
+    "16": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Yellow Juicer",
+      "boost": "Extend Happy Time",
+      "no": 16
+    },
+    "17": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Dairy Juice",
+      "boost": "Increase Population",
+      "no": 17
+    },
+    "18": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Probe",
+      "boost": "Increase Production",
+      "no": 18
+    },
+    "19": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Green Juicer",
+      "boost": "Increase Population",
+      "no": 19
+    },
+    "20": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Pearl of Wisdom",
+      "boost": "Extend Production Time",
+      "no": 20
+    },
+    "21": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Magic Stone",
+      "boost": "Extend Happy Time",
+      "no": 21
+    },
+    "22": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Shipwreck",
+      "boost": "Decrease Food Requirements",
+      "no": 22
+    },
+    "23": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Fish Eye",
+      "boost": "Decrease Food Requirements",
+      "no": 23
+    },
+    "24": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Space Pirate Battleship",
+      "boost": "Extend Production Time",
+      "no": 24
+    },
+    "25": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Galactic Drill",
+      "boost": "Extend Production Time",
+      "no": 25
+    },
+    "26": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Sapphire",
+      "boost": "Increase Production",
+      "no": 26
+    },
+    "27": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Tiny Parasol",
+      "boost": "Extend Production Time",
+      "no": 27
+    },
+    "28": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Mossy",
+      "boost": "Extend Happy Time",
+      "no": 28
+    },
+    "29": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Candy Cane",
+      "boost": "Decrease Food Requirements",
+      "no": 29
+    },
+    "30": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Snackysnacks",
+      "boost": "Increase Population",
+      "no": 30
+    },
+    "31": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Rattykin",
+      "boost": "Increase Production",
+      "no": 31
+    },
+    "32": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Amber",
+      "boost": "Increase Production",
+      "no": 32
+    },
+    "33": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Ball o' Sun",
+      "boost": "Extend Production Time",
+      "no": 33
+    },
+    "34": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Macaron",
+      "boost": "Extend Happy Time",
+      "no": 34
+    },
+    "35": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Blue Orb",
+      "boost": "Extend Happy Time",
+      "no": 35
+    },
+    "36": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Spacecraft of Dr. Evil",
+      "boost": "Increase Population",
+      "no": 36
+    },
+    "37": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Ruby",
+      "boost": "Increase Production",
+      "no": 37
+    },
+    "38": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Drippy Dropper",
+      "boost": "Extend Happy Time",
+      "no": 38
+    },
+    "39": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Gumbear",
+      "boost": "Decrease Food Requirements",
+      "no": 39
+    },
+    "40": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Ding-Donger",
+      "boost": "Decrease Food Requirements",
+      "no": 40
+    },
+    "41": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Scarecrow",
+      "boost": "Decrease Food Requirements",
+      "no": 41
+    },
+    "42": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Emerald",
+      "boost": "Increase Population",
+      "no": 42
+    },
+    "43": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Bat",
+      "boost": "Decrease Food Requirements",
+      "no": 43
+    },
+    "44": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Energizer",
+      "boost": "Extend Happy Time",
+      "no": 44
+    },
+    "45": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Diamond",
+      "boost": "Extend Happy Time",
+      "no": 45
+    },
+    "46": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Fireball",
+      "boost": "Increase Production",
+      "no": 46
+    },
+    "47": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Hami Ham",
+      "boost": "Extend Production Time",
+      "no": 47
+    },
+    "48": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Ball o' Yarn",
+      "boost": "Extend Happy Time",
+      "no": 48
+    },
+    "49": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Red Juicer",
+      "boost": "Decrease Food Requirements",
+      "no": 49
+    },
+    "50": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Florb",
+      "boost": "Increase Population",
+      "no": 50
+    },
+    "51": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Cottony Candy",
+      "boost": "Extend Production Time",
+      "no": 51
+    },
+    "52": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Chinese Dragon",
+      "boost": "Increase Population",
+      "no": 52
+    },
+    "53": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Love Letter",
+      "boost": "Increase Production",
+      "no": 53
+    },
+    "54": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Toy Blocks",
+      "boost": "Extend Production Time",
+      "no": 54
+    },
+    "55": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Easter Egg",
+      "boost": "Decrease Food Requirements",
+      "no": 55
+    },
+    "56": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Sweet Heart",
+      "boost": "Extend Happy Time",
+      "no": 56
+    },
+    "57": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Sachet",
+      "boost": "Increase Population",
+      "no": 57
+    },
+    "58": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Magic Rune",
+      "boost": "Increase Production",
+      "no": 58
+    },
+    "59": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Pipe",
+      "boost": "Extend Production Time",
+      "no": 59
+    },
+    "60": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Moon Cake",
+      "boost": "Decrease Food Requirements",
+      "no": 60
+    },
+    "61": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Magic Circle",
+      "boost": "Extend Happy Time",
+      "no": 61
+    },
+    "62": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Turkey Feather",
+      "boost": "Increase Population",
+      "no": 62
+    },
+    "63": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "X'mas Gift",
+      "boost": "Increase Production",
+      "no": 63
+    },
+    "64": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Buccinidae",
+      "boost": "Increase Population",
+      "no": 64
+    },
+    "65": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Scoutship",
+      "boost": "Increase Production",
+      "no": 65
+    },
+    "66": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Plug",
+      "boost": "Extend Production Time",
+      "no": 66
+    },
+    "67": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Soccer",
+      "boost": "Decrease Food Requirements",
+      "no": 67
+    },
+    "68": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Invisible Walkr",
+      "boost": "Extend Happy Time",
+      "no": 68
+    },
+    "69": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Coca-Cola",
+      "boost": "Increase Population",
+      "no": 69
+    },
+    "70": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "DVD",
+      "boost": "Increase Production",
+      "no": 70
+    },
+    "71": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Dog Bowl",
+      "boost": "Extend Production Time",
+      "no": 71
+    },
+    "72": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Raven",
+      "boost": "Decrease Food Requirements",
+      "no": 72
+    },
+    "73": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Tire",
+      "boost": "Extend Happy Time",
+      "no": 73
+    },
+    "74": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Roman Helmet",
+      "boost": "Increase Population",
+      "no": 74
+    },
+    "75": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Rune Stone",
+      "boost": "Increase Production",
+      "no": 75
+    },
+    "76": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Horn",
+      "boost": "Extend Production Time",
+      "no": 76
+    },
+    "77": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Rune Plate",
+      "boost": "Decrease Food Requirements",
+      "no": 77
+    },
+    "78": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Knight Shield",
+      "boost": "Extend Happy Time",
+      "no": 78
+    },
+    "79": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Bamboo",
+      "boost": "Increase Population",
+      "no": 79
+    },
+    "80": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Dictionary",
+      "boost": "Increase Production",
+      "no": 80
+    },
+    "81": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Monument",
+      "boost": "Extend Production Time",
+      "no": 81
+    },
+    "82": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Energy Stone",
+      "boost": "Decrease Food Requirements",
+      "no": 82
+    },
+    "83": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Bilge Plug",
+      "boost": "Extend Happy Time",
+      "no": 83
+    },
+    "84": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Malayan Tapir",
+      "boost": "Increase Population",
+      "no": 84
+    },
+    "85": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Starfish",
+      "boost": "Increase Production",
+      "no": 85
+    },
+    "86": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Shower",
+      "boost": "Increase Production",
+      "no": 86
+    },
+    "87": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Neon Lights",
+      "boost": "Decrease Food Requirements",
+      "no": 87
+    },
+    "88": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Fire Ring Lion",
+      "boost": "Extend Happy Time",
+      "no": 88
+    },
+    "89": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Tropical Fish",
+      "boost": "Increase Population",
+      "no": 89
+    },
+    "90": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Djembe",
+      "boost": "Increase Production",
+      "no": 90
+    },
+    "91": {
+      "l1": "+5%",
+      "l2": "%10%",
+      "name": "Heating Light Bulb",
+      "boost": "Extend Production Time",
+      "no": 91
+    },
+    "92": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Red Lantern",
+      "boost": "Decrease Food Requirements",
+      "no": 92
+    },
+    "93": {
+      "l1": "+50%",
+      "l2": "+100%",
+      "name": "Cowboy Hat",
+      "boost": "Extend Happy Time",
+      "no": 93
+    },
+    "94": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Featherd Arrow",
+      "boost": "Increase Population",
+      "no": 94
+    },
+    "95": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Picture Horse",
+      "boost": "Increase Production",
+      "no": 95
+    },
+    "96": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "pepper",
+      "boost": "Extend Production Time",
+      "no": 96
+    },
+    "97": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Token",
+      "boost": "Decrease Food Requirements",
+      "no": 97
+    },
+    "98": {
+      "l1": "-",
+      "l2": "-",
+      "name": "Fish Food",
+      "no": 98
+    },
+    "99": {
+      "l1": "+2",
+      "l2": "+4",
+      "name": "Pasture",
+      "boost": "Increase Population",
+      "no": 99
+    },
+    "100": {
+      "l1": "+5",
+      "l2": "+10",
+      "name": "Gold Lock",
+      "boost": "Increase Production",
+      "no": 100
+    },
+    "101": {
+      "l1": "+5%",
+      "l2": "+10%",
+      "name": "Skull",
+      "boost": "Extend Production Time",
+      "no": 101
+    },
+    "102": {
+      "l1": "-5%",
+      "l2": "-10%",
+      "name": "Orange Blossom",
+      "boost": "Decrease Food Requirements",
+      "no": 102
+    }
+  },
+  "planet": {
+    "1": {
+      "type": "Solar",
+      "acquired": 1,
+      "name": "Earth",
+      "resource": "Garbage"
+    },
+    "2": {
+      "type": "Cuisine",
+      "acquired": 45,
+      "name": "Caramel Apple",
+      "resource": "Apple"
+    },
+    "3": {
+      "type": "Animal",
+      "acquired": 51,
+      "name": "Honeycomb",
+      "resource": "Honey"
+    },
+    "4": {
+      "type": "Animal",
+      "acquired": 17,
+      "name": "King of Cows",
+      "resource": "Milk"
+    },
+    "5": {
+      "type": "Element",
+      "acquired": 22,
+      "name": "Water World",
+      "resource": "Water"
+    },
+    "6": {
+      "type": "Plant",
+      "acquired": 19,
+      "name": "Fossil Fern",
+      "resource": "Spores"
+    },
+    "7": {
+      "type": "Element",
+      "acquired": 8,
+      "name": "Meteor Adrift",
+      "resource": "Stones"
+    },
+    "8": {
+      "type": "Unique",
+      "acquired": 41,
+      "name": "Ventricular Machine",
+      "resource": "Gears"
+    },
+    "9": {
+      "type": "Element",
+      "acquired": 35,
+      "name": "Snow World",
+      "resource": "Snow"
+    },
+    "10": {
+      "type": "Plant",
+      "acquired": 38,
+      "name": "Golden Gusher",
+      "resource": "Oil"
+    },
+    "11": {
+      "type": "Unique",
+      "acquired": 2,
+      "name": "Moon Athena",
+      "resource": "Aerolite"
+    },
+    "12": {
+      "type": "Element",
+      "acquired": 3,
+      "name": "Ice Age",
+      "resource": "Ice"
+    },
+    "13": {
+      "type": "Animal",
+      "acquired": 10,
+      "name": "Eagle's Nest",
+      "resource": "Eggs"
+    },
+    "14": {
+      "type": "Cuisine",
+      "acquired": 37,
+      "name": "Citrus Trampoline",
+      "resource": "Jelly"
+    },
+    "15": {
+      "type": "Element",
+      "acquired": 23,
+      "name": "Bubble Gum",
+      "resource": "Air"
+    },
+    "16": {
+      "type": "Cuisine",
+      "acquired": 36,
+      "name": "Pineapple Foothills",
+      "resource": "Pineapples"
+    },
+    "17": {
+      "type": "Cuisine",
+      "acquired": 28,
+      "name": "Strawberry Cookies",
+      "resource": "Strawberries"
+    },
+    "18": {
+      "type": "Unique",
+      "acquired": 31,
+      "name": "Steam Age",
+      "resource": "Screws"
+    },
+    "19": {
+      "type": "Cuisine",
+      "acquired": 47,
+      "name": "Snow Berry",
+      "resource": "Hami Melons"
+    },
+    "20": {
+      "type": "Animal",
+      "acquired": 5,
+      "name": "Coral Reef",
+      "resource": "Coral"
+    },
+    "21": {
+      "type": "Element",
+      "acquired": 24,
+      "name": "Lonely Dune",
+      "resource": "Soil"
+    },
+    "22": {
+      "type": "Animal",
+      "acquired": 43,
+      "name": "Octopus Cavern",
+      "resource": "Octopus"
+    },
+    "23": {
+      "type": "Plant",
+      "acquired": 20,
+      "name": "Swamp of Crocs",
+      "resource": "Gas"
+    },
+    "24": {
+      "type": "Unique",
+      "acquired": 15,
+      "name": "Smoky Secret",
+      "resource": "Steam"
+    },
+    "25": {
+      "type": "Element",
+      "acquired": 18,
+      "name": "Molten Lava",
+      "resource": "Fossils"
+    },
+    "26": {
+      "type": "Plant",
+      "acquired": 44,
+      "name": "Luminous Fungus",
+      "resource": "Mushrooms"
+    },
+    "27": {
+      "type": "Cuisine",
+      "acquired": 12,
+      "name": "Banana Boat",
+      "resource": "Sundaes"
+    },
+    "28": {
+      "type": "Animal",
+      "acquired": 11,
+      "name": "Antler Ravine",
+      "resource": "Leather"
+    },
+    "29": {
+      "type": "Cuisine",
+      "acquired": 39,
+      "name": "Sugar Rush",
+      "resource": "Candy"
+    },
+    "30": {
+      "type": "Plant",
+      "acquired": 25,
+      "name": "Tater Tower",
+      "resource": "Taters"
+    },
+    "31": {
+      "type": "Animal",
+      "acquired": 9,
+      "name": "Cat's Play",
+      "resource": "Cloth"
+    },
+    "32": {
+      "type": "Unique",
+      "acquired": 26,
+      "name": "Crystalline",
+      "resource": "Crystal"
+    },
+    "33": {
+      "type": "Plant",
+      "acquired": 13,
+      "name": "Desert Breeze",
+      "resource": "Jus de Cact"
+    },
+    "34": {
+      "type": "Cuisine",
+      "acquired": 4,
+      "name": "Sweet Donut",
+      "resource": "Sugar"
+    },
+    "35": {
+      "type": "Plant",
+      "acquired": 49,
+      "name": "Botanical Garden",
+      "resource": "Flowers"
+    },
+    "36": {
+      "type": "Unique",
+      "acquired": 34,
+      "name": "HA42N55",
+      "resource": "Virus"
+    },
+    "37": {
+      "type": "Plant",
+      "acquired": 16,
+      "name": "Colossal Pepper",
+      "resource": "Bell Pepper"
+    },
+    "38": {
+      "type": "Unique",
+      "acquired": 33,
+      "name": "Zombie Cortex",
+      "resource": "Blood"
+    },
+    "39": {
+      "type": "Animal",
+      "acquired": 40,
+      "name": "Red Crater",
+      "resource": "Dye"
+    },
+    "40": {
+      "type": "Unique",
+      "acquired": 27,
+      "name": "Cello Valley",
+      "resource": "Notes"
+    },
+    "41": {
+      "type": "Plant",
+      "acquired": 29,
+      "name": "Sunset Savanna",
+      "resource": "Wheat"
+    },
+    "42": {
+      "type": "Plant",
+      "acquired": 6,
+      "name": "Peaceful Prairie",
+      "resource": "Spices"
+    },
+    "43": {
+      "type": "Unique",
+      "acquired": 42,
+      "name": "Witch's Den",
+      "resource": "Pumpkins"
+    },
+    "44": {
+      "type": "Unique",
+      "acquired": 7,
+      "name": "Circuit City",
+      "resource": "Chips"
+    },
+    "45": {
+      "type": "Element",
+      "acquired": 46,
+      "name": "Vault of Secrets",
+      "resource": "Metal"
+    },
+    "46": {
+      "type": "Element",
+      "acquired": 48,
+      "name": "Heart of Flames",
+      "resource": "Fire"
+    },
+    "47": {
+      "type": "Animal",
+      "acquired": 21,
+      "name": "Boar Tribe",
+      "resource": "Meat"
+    },
+    "48": {
+      "type": "Animal",
+      "acquired": 50,
+      "name": "Woolly Peak",
+      "resource": "Wool"
+    },
+    "49": {
+      "type": "Cuisine",
+      "acquired": 30,
+      "name": "Watermelon Canyon",
+      "resource": "Watermelons"
+    },
+    "50": {
+      "type": "Element",
+      "acquired": 14,
+      "name": "Amazon Rainforest",
+      "resource": "Wood"
+    },
+    "51": {
+      "type": "Cuisine",
+      "acquired": 32,
+      "name": "Chocolate River",
+      "resource": "Chocolate"
+    },
+    "52": {
+      "type": "Festival",
+      "acquired": 61,
+      "name": "China Town",
+      "resource": "Ingot"
+    },
+    "53": {
+      "type": "Festival",
+      "acquired": 56,
+      "name": "The Two Mountains",
+      "resource": "Diamond"
+    },
+    "54": {
+      "type": "Festival",
+      "acquired": 62,
+      "name": "City of Children",
+      "resource": "Toy"
+    },
+    "55": {
+      "type": "Festival",
+      "acquired": 59,
+      "name": "Rainbow Eggs",
+      "resource": "Color"
+    },
+    "56": {
+      "type": "Festival",
+      "acquired": 54,
+      "name": "Housework Factory",
+      "resource": "Love"
+    },
+    "57": {
+      "type": "Festival",
+      "acquired": 52,
+      "name": "River of Dragon",
+      "resource": "Leaf"
+    },
+    "58": {
+      "type": "Festival",
+      "acquired": 53,
+      "name": "Peace River",
+      "resource": "Spirit"
+    },
+    "59": {
+      "type": "Festival",
+      "acquired": 55,
+      "name": "Busy City",
+      "resource": "Button"
+    },
+    "60": {
+      "type": "Festival",
+      "acquired": 63,
+      "name": "Moon Lake",
+      "resource": "Light"
+    },
+    "61": {
+      "type": "Festival",
+      "acquired": 60,
+      "name": "Scary Pumpkin",
+      "resource": "Screaming"
+    },
+    "62": {
+      "type": "Festival",
+      "acquired": 68,
+      "name": "Many Givings",
+      "resource": "Chicken"
+    },
+    "63": {
+      "type": "Festival",
+      "acquired": 57,
+      "name": "Ring Forest",
+      "resource": "Jingle"
+    },
+    "64": {
+      "type": "Animal",
+      "acquired": 65,
+      "name": "Deep-Sea Aquarium",
+      "resource": "Fishbone"
+    },
+    "65": {
+      "type": "Unique",
+      "acquired": 68,
+      "name": "Legacy Gate",
+      "resource": "Conscious"
+    },
+    "66": {
+      "type": "Element",
+      "acquired": 67,
+      "name": "The Light of Ideas",
+      "resource": "Idea"
+    },
+    "67": {
+      "type": "Unique",
+      "acquired": 64,
+      "name": "Soccer Sphere",
+      "resource": "Passion"
+    },
+    "68": {
+      "type": "Element",
+      "acquired": 66,
+      "name": "Invisible Base",
+      "resource": "Invisibility"
+    },
+    "69": {
+      "type": "Cuisine",
+      "acquired": 70,
+      "name": "Burger Mountain",
+      "resource": "Fries"
+    },
+    "70": {
+      "type": "Cuisine",
+      "acquired": 71,
+      "name": "Popcorn Prison",
+      "resource": "Popcorn"
+    },
+    "71": {
+      "type": "Element",
+      "acquired": 72,
+      "name": "Doggii's Home",
+      "resource": "Tooth"
+    },
+    "72": {
+      "type": "Element",
+      "acquired": 73,
+      "name": "Raining Cloud",
+      "resource": "Cloud"
+    },
+    "73": {
+      "type": "Unique",
+      "acquired": 74,
+      "name": "Infinite Racing",
+      "resource": "Hurray"
+    },
+    "74": {
+      "type": "Unique",
+      "acquired": 69,
+      "name": "Rome Arena",
+      "resource": "Soul"
+    },
+    "75": {
+      "type": "Plant",
+      "acquired": 82,
+      "name": "Ancient Worldtree",
+      "resource": "Rune"
+    },
+    "76": {
+      "type": "Plant",
+      "acquired": 78,
+      "name": "Viking Warship",
+      "resource": "Copper"
+    },
+    "77": {
+      "type": "Animal",
+      "acquired": 76,
+      "name": "Stone Age",
+      "resource": "Plate"
+    },
+    "78": {
+      "type": "Animal",
+      "acquired": 80,
+      "name": "Angry Dragon",
+      "resource": "Dragonclaw"
+    },
+    "79": {
+      "type": "Animal",
+      "acquired": 75,
+      "name": "Black & White",
+      "resource": "Bamboo"
+    },
+    "80": {
+      "type": "Unique",
+      "acquired": 83,
+      "name": "Floating Library",
+      "resource": "Knowledge"
+    },
+    "81": {
+      "type": "Plant",
+      "acquired": 79,
+      "name": "Peaceful Graveyard",
+      "resource": "Bone"
+    },
+    "82": {
+      "type": "Unique",
+      "acquired": 77,
+      "name": "Star Portal",
+      "resource": "Superpower"
+    },
+    "83": {
+      "type": "Element",
+      "acquired": 81,
+      "name": "Waving Ocean",
+      "resource": "Salt"
+    },
+    "84": {
+      "type": "Unique",
+      "acquired": 84,
+      "name": "Dreamland",
+      "resource": "Dream"
+    },
+    "85": {
+      "type": "Plant",
+      "acquired": 87,
+      "name": "Aquatic Wonderland",
+      "resource": "Seaweed"
+    },
+    "86": {
+      "type": "Plant",
+      "acquired": 89,
+      "name": "Lotus Lake",
+      "resource": "Lotus Seed"
+    },
+    "87": {
+      "type": "Element",
+      "acquired": 90,
+      "name": "Neon Party",
+      "resource": "Neon"
+    },
+    "88": {
+      "type": "Special",
+      "acquired": 86,
+      "name": "Crown Circus",
+      "resource": "Ticket"
+    },
+    "89": {
+      "type": "Animal",
+      "acquired": 85,
+      "name": "Great Whale",
+      "resource": "Wave"
+    },
+    "90": {
+      "type": "Special",
+      "acquired": 88,
+      "name": "Lion Land",
+      "resource": "Symbol"
+    },
+    "91": {
+      "type": "Animal",
+      "acquired": 93,
+      "name": "Babe Hedgehog",
+      "resource": "Poison Sting"
+    },
+    "92": {
+      "type": "Special",
+      "acquired": 95,
+      "name": "Lantern City",
+      "resource": "Lantern"
+    },
+    "93": {
+      "type": "Special",
+      "acquired": 92,
+      "name": "Golden Town",
+      "resource": "Star Badge"
+    },
+    "94": {
+      "type": "Special",
+      "acquired": 96,
+      "name": "The Great Wall",
+      "resource": "Brick"
+    },
+    "95": {
+      "type": "Special",
+      "acquired": 94,
+      "name": "Sakura Temple",
+      "resource": "Sakura"
+    },
+    "96": {
+      "type": "Element",
+      "acquired": 91,
+      "name": "Ocean City",
+      "resource": "Olive"
+    },
+    "97": {
+      "type": "Cuisine",
+      "acquired": 99,
+      "name": "Bubble Gum",
+      "resource": "Bubble Gum"
+    },
+    "98": {
+      "type": "Animal",
+      "acquired": 101,
+      "name": "Angry Pufferfish",
+      "resource": "Angry"
+    },
+    "99": {
+      "type": "Animal",
+      "acquired": 98,
+      "name": "Rabbit Burrow",
+      "resource": "Carrot"
+    },
+    "100": {
+      "type": "Special",
+      "acquired": 97,
+      "name": "Seal of Monster",
+      "resource": "Seal"
+    },
+    "101": {
+      "type": "Element",
+      "acquired": 102,
+      "name": "Bone Cage No.11",
+      "resource": "Evilbone"
+    },
+    "102": {
+      "type": "Element",
+      "acquired": 100,
+      "name": "Perfume Bathhouse",
+      "resource": "Musk"
+    }
+  }
+}
