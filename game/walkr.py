@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 import json
 import configparser
-# planet_list = [1, 4, 5, 9, 12, 15, 20, 21, 22, 23, 25, 35, 45, 46, 50, 52, 53, 66, 69, 75, 81, 86, 87, 89, 101]
+from datetime import datetime
 
 
 class Walkr():
+
     def __init__(self):
         parser = configparser.ConfigParser()
         parser.read('game/settings.ini')
@@ -15,22 +16,47 @@ class Walkr():
 
         self.wiki = self.get_wiki()
 
-    def get_planet_list(self):
+    @staticmethod
+    def read_history():
         with open('game/history.json') as f:
-            history_dict = json.load(f)
-            for history in history_dict['history']:
-                self.planets.append(history['planet'])
-            f.close()
+            data = {int(key): value for key, value in json.load(f).items()}
+            return data
+
+    @staticmethod
+    def write_history(data):
+        with open('game/history.json', 'w') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+    def add_history(self, new_planet_list):
+        if len(new_planet_list) == 0:
+            return
+        else:
+            self.get_planet_list()
+            history = self.read_history()
+            today = datetime.now().strftime('%Y-%m-%d')
+
+            for planet in new_planet_list:
+                if planet in self.planets:
+                    print("You already have " + str(planet))
+                    continue
+                else:
+                    history[int(planet)] = today
+
+            self.write_history(history)
+
+    def get_planet_list(self):
+        history = self.read_history()
+        for item in history.items():
+            self.planets.append(item[0])
+        self.planets.sort()
 
     def get_wiki(self):
         if self.language == "en":
             with open('game/wiki/wiki_en.json') as f:
                 data = json.load(f)
-                f.close()
         elif self.language == "ko":
             with open('game/wiki/wiki_ko.json') as f:
                 data = json.load(f)
-                f.close()
         return data
 
     def get_satellite_list(self):
@@ -40,53 +66,66 @@ class Walkr():
         self.satellites.sort()
 
     def find_best_match(self):
-        match_list = list(set(self.planets).intersection(self.satellites))
-        match_list.sort()
 
-        if self.language == "en":
-            print("\nThere is " + str(len(match_list)) + " best matches you have.\n")
-            print("No".center(6) + "|"
-                  + "Planet".center(20) + "|"
-                  + "Satellite".center(30) + "|"
-                  + "Boost".center(30) + "|")
-            print('{:-<98}'.format(""))
-
-            for match in match_list:
-                planet = self.wiki["planet"][str(match)]
-                satellite = self.wiki["satellite"][str(match)]
-
-                info = ""
-                info += str(match).center(6) + "|"
-                info += planet['name'].center(20) + "|"
-                info += satellite['name'].center(30) + "|"
-                info += str(satellite.get('boost')).center(30) + "|"
-                info += satellite['l2'].center(8)
-                print(info)
-
-        elif self.language == "ko":
-            print("\n" + str(len(match_list)) + "개의 조합이 있습니다.\n")
-            print("No".ljust(4) + "|  "
-                  + "행성".ljust(15) + "\t|  "
-                  + "위성".ljust(14) + "\t|  "
-                  + "효과".ljust(13) + "\t|  ")
-            print('{:-<90}'.format(""))
-
-            for match in match_list:
-                planet = self.wiki["planet"][str(match)]
-                satellite = self.wiki["satellite"][str(match)]
-
-                info = ""
-                info += str(match).ljust(4) + "|  "
-                info += planet['name'].ljust(15) + "\t|  "
-                info += satellite['name'].ljust(14) + "\t|  "
-                info += str(satellite.get('boost')).ljust(13) + "\t|  "
-                info += satellite['l2'].ljust(8)
-                print(info)
-
-    def main(self):
         self.get_planet_list()
         self.get_satellite_list()
+
+        bests = list(set(self.planets).intersection(self.satellites))
+        bests.sort()
+
+        result = list()
+
+        for planet_num in bests:
+            planet = self.wiki["planet"][str(planet_num)]
+            satellite = self.wiki["satellite"][str(planet_num)]
+
+            info = dict()
+            info['no'] = planet_num
+            info['planet'] = planet['name']
+            info['satellite'] = satellite['name']
+            info['boost_name'] = satellite.get('boost')
+            info['boost_level'] = 2
+            info['boost_amount'] = satellite['l2']
+            result.append(info)
+
+        self.write_result(result)
+
+        return result
+
+    @staticmethod
+    def read_result():
+        with open('game/result.json') as f:
+            data = json.load(f)
+            return data
+
+    @staticmethod
+    def write_result(data):
+        with open('game/result.json', 'w') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+    def print_result(self):
         self.find_best_match()
+        result = self.read_result()
+
+        print("\nThere is " + str(len(result)) + " best matches you have.\n")
+        print("No".center(6) + "|"
+              + "Planet".center(20) + "|"
+              + "Satellite".center(30) + "|"
+              + "Boost".center(30) + "|")
+        print('{:-<98}'.format(""))
+
+        for item in result:
+            info = ""
+            info += str(item['no']).center(6) + "|"
+            info += item['planet'].center(20) + "|"
+            info += item['satellite'].center(30) + "|"
+            info += str(item['boost_name']).center(30) + "|"
+            info += item['boost_amount'].center(8)
+            print(info)
+
+    def main(self):
+        self.add_history([])
+        self.print_result()
 
 if __name__ == '__main__':
     walkr = Walkr()

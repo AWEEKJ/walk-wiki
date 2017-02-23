@@ -1,0 +1,82 @@
+[
+  {
+    "planet": "Earth",
+    "boost_level": 2,
+    "satellite": "The Moon",
+    "no": 1,
+    "boost_amount": "-",
+    "boost_name": null
+  },
+  {
+    "planet": "Water World",
+    "boost_level": 2,
+    "satellite": "Letter in the Bottle",
+    "no": 5,
+    "boost_amount": "-10%",
+    "boost_name": "Decrease Food Requirements"
+  },
+  {
+    "planet": "Coral Reef",
+    "boost_level": 2,
+    "satellite": "Pearl of Wisdom",
+    "no": 20,
+    "boost_amount": "+10%",
+    "boost_name": "Extend Production Time"
+  },
+  {
+    "planet": "Octopus Cavern",
+    "boost_level": 2,
+    "satellite": "Shipwreck",
+    "no": 22,
+    "boost_amount": "-10%",
+    "boost_name": "Decrease Food Requirements"
+  },
+  {
+    "planet": "Swamp of Crocs",
+    "boost_level": 2,
+    "satellite": "Fish Eye",
+    "no": 23,
+    "boost_amount": "-10%",
+    "boost_name": "Decrease Food Requirements"
+  },
+  {
+    "planet": "Botanical Garden",
+    "boost_level": 2,
+    "satellite": "Blue Orb",
+    "no": 35,
+    "boost_amount": "+100%",
+    "boost_name": "Extend Happy Time"
+  },
+  {
+    "planet": "Heart of Flames",
+    "boost_level": 2,
+    "satellite": "Fireball",
+    "no": 46,
+    "boost_amount": "+10",
+    "boost_name": "Increase Production"
+  },
+  {
+    "planet": "The Light of Ideas",
+    "boost_level": 2,
+    "satellite": "Plug",
+    "no": 66,
+    "boost_amount": "+10%",
+    "boost_name": "Extend Production Time"
+  },
+  {
+    "planet": "Peaceful Graveyard",
+    "boost_level": 2,
+    "satellite": "Monument",
+    "no": 81,
+    "boost_amount": "+10%",
+    "boost_name": "Extend Production Time"
+  },
+  {
+    "planet": "Great Whale",
+    "boost_level": 2,
+    "satellite": "Tropical Fish",
+    "no": 89,
+    "boost_amount": "+4",
+    "boost_name": "Increase Population"
+  }
+]

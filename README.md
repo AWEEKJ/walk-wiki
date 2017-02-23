@@ -1,4 +1,4 @@
-# walkr-wiki
+# walkr-match
 
 Shows best matches of planet and satellite in [Walkr](http://walkrgame.com/en/).
 
